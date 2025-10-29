@@ -1,5 +1,13 @@
 # herz
 ## install tool
+gonew
+```bash
+ go install golang.org/x/tools/cmd/gonew@latest
+```
+ent
+``` bash
+go install entgo.io/ent/cmd/ent@latest
+```
 hz
 ```bash
 go install github.com/cloudwego/hertz/cmd/hz@latest
