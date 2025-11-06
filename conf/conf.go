@@ -77,9 +77,9 @@ func initConf() {
 }
 
 func GetEnv() string {
-	e := os.Getenv("GO_ENV")
+	e := os.Getenv("SERVER_ENV")
 	if len(e) == 0 {
-		return "test"
+		return "development"
 	}
 	return e
 }
